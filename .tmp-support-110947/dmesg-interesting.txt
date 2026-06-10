@@ -1,0 +1,300 @@
+[Tue Jun  9 09:18:48 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:18:49 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:18:49 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:18:49 2026] ata17.00: disable device
+[Tue Jun  9 09:18:51 2026] ata17: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jun  9 09:18:51 2026] ata17.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Tue Jun  9 09:18:51 2026] ata17.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Tue Jun  9 09:18:51 2026] ata17.00: Features: HIPM DIPM
+[Tue Jun  9 09:18:51 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:18:51 2026] ata17.00: detaching (SCSI 16:0:0:0)
+[Tue Jun  9 09:18:52 2026] scsi 16:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Tue Jun  9 09:18:52 2026] sd 16:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Tue Jun  9 09:19:03 2026] ata17: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jun  9 09:19:03 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:19:07 2026] ata17: SATA link down (SStatus 0 SControl 300)
+[Tue Jun  9 09:19:10 2026] ata17: SATA link down (SStatus 0 SControl 300)
+[Tue Jun  9 09:19:10 2026] ata17: limiting SATA link speed to <unknown>
+[Tue Jun  9 09:19:12 2026] ata17: SATA link down (SStatus 0 SControl 3F0)
+[Tue Jun  9 09:19:12 2026] ata17.00: disable device
+[Tue Jun  9 09:19:12 2026] ata17: SATA link down (SStatus 0 SControl 300)
+[Tue Jun  9 09:19:12 2026] ata17.00: detaching (SCSI 16:0:0:0)
+[Tue Jun  9 09:19:12 2026] sd 16:0:0:0: [sdc] Synchronize Cache(10) failed: Result: hostbyte=DID_BAD_TARGET driverbyte=DRIVER_OK
+[Tue Jun  9 09:19:12 2026] sd 16:0:0:0: [sdc] Start/Stop Unit failed: Result: hostbyte=DID_BAD_TARGET driverbyte=DRIVER_OK
+[Tue Jun  9 09:19:13 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:19:14 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:19:14 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:19:15 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:19:15 2026] ata17.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Tue Jun  9 09:19:15 2026] ata17.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Tue Jun  9 09:19:15 2026] ata17.00: Features: HIPM DIPM
+[Tue Jun  9 09:19:15 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:19:15 2026] scsi 16:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Tue Jun  9 09:19:15 2026] sd 16:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Tue Jun  9 09:19:16 2026] ata17.00: exception Emask 0x10 SAct 0x100 SErr 0x49e0000 action 0xe frozen
+[Tue Jun  9 09:19:16 2026] ata17.00: irq_stat 0x00000040, connection status changed
+[Tue Jun  9 09:19:16 2026] ata17: SError: { PHYInt CommWake 10B8B Dispar LinkSeq DevExch }
+[Tue Jun  9 09:19:16 2026] ata17.00: failed command: READ FPDMA QUEUED
+[Tue Jun  9 09:19:16 2026] ata17.00: cmd 60/f8:40:08:01:00/00:00:00:00:00/40 tag 8 ncq dma 126976 in
+                                    res 40/00:01:00:00:00/00:00:00:00:00/40 Emask 0x10 (ATA bus error)
+[Tue Jun  9 09:19:16 2026] ata17.00: status: { DRDY }
+[Tue Jun  9 09:19:16 2026] ata17: hard resetting link
+[Tue Jun  9 09:19:18 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:19:18 2026] ata17: hard resetting link
+[Tue Jun  9 09:19:19 2026] ata17: found unknown device (class 0)
+[Tue Jun  9 09:19:19 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:19:19 2026] ata17: hard resetting link
+[Tue Jun  9 09:19:19 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:19:19 2026] ata17.00: failed to IDENTIFY (I/O error, err_mask=0x100)
+[Tue Jun  9 09:19:19 2026] ata17.00: revalidation failed (errno=-5)
+[Tue Jun  9 09:19:19 2026] ata17.00: disable device
+[Tue Jun  9 09:19:24 2026] ata17: hard resetting link
+[Tue Jun  9 09:19:25 2026] ata17: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jun  9 09:19:25 2026] ata17.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Tue Jun  9 09:19:25 2026] ata17.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Tue Jun  9 09:19:25 2026] ata17.00: Features: HIPM DIPM
+[Tue Jun  9 09:19:25 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:19:25 2026] sd 16:0:0:0: [sdc] tag#8 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_OK cmd_age=9s
+[Tue Jun  9 09:19:25 2026] blk_print_req_error: 2 callbacks suppressed
+[Tue Jun  9 09:19:25 2026] I/O error, dev sdc, sector 264 op 0x0:(READ) flags 0x80700 phys_seg 31 prio class 2
+[Tue Jun  9 09:19:25 2026] ata17: EH complete
+[Tue Jun  9 09:19:25 2026] ata17.00: detaching (SCSI 16:0:0:0)
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 264 op 0x0:(READ) flags 0x800000 phys_seg 1 prio class 2
+[Tue Jun  9 09:19:25 2026] buffer_io_error: 2 callbacks suppressed
+[Tue Jun  9 09:19:25 2026] Buffer I/O error on dev sdc, logical block 33, async page read
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 544 op 0x0:(READ) flags 0x80700 phys_seg 28 prio class 2
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 544 op 0x0:(READ) flags 0x800000 phys_seg 1 prio class 2
+[Tue Jun  9 09:19:25 2026] Buffer I/O error on dev sdc, logical block 68, async page read
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052000 op 0x0:(READ) flags 0x80700 phys_seg 22 prio class 2
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052184 op 0x0:(READ) flags 0x880700 phys_seg 1 prio class 2
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052200 op 0x0:(READ) flags 0x880700 phys_seg 2 prio class 2
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052000 op 0x0:(READ) flags 0x800000 phys_seg 1 prio class 2
+[Tue Jun  9 09:19:25 2026] Buffer I/O error on dev sdc, logical block 1953506500, async page read
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052512 op 0x0:(READ) flags 0x80700 phys_seg 8 prio class 2
+[Tue Jun  9 09:19:25 2026] device offline error, dev sdc, sector 15628052584 op 0x0:(READ) flags 0x80700 phys_seg 19 prio class 2
+[Tue Jun  9 09:19:25 2026] Buffer I/O error on dev sdc, logical block 1953506564, async page read
+[Tue Jun  9 09:19:26 2026] scsi 16:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Tue Jun  9 09:19:26 2026] sd 16:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Tue Jun  9 09:22:27 2026] ata17: reset failed (errno=-32), retrying in 8 secs
+[Tue Jun  9 09:22:35 2026] ata17: limiting SATA link speed to 3.0 Gbps
+[Tue Jun  9 09:22:36 2026] ata17: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:22:36 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:22:39 2026] ata17: found unknown device (class 0)
+[Tue Jun  9 09:22:39 2026] ata17: SATA link down (SStatus 0 SControl 320)
+[Tue Jun  9 09:22:40 2026] ata17: SATA link down (SStatus 0 SControl 320)
+[Tue Jun  9 09:22:40 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:22:40 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:22:40 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:22:40 2026] ata17.00: limiting speed to UDMA/100:PIO4
+[Tue Jun  9 09:22:42 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:22:42 2026] ata17.00: configured for UDMA/100
+[Tue Jun  9 09:22:45 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:22:45 2026] ata17.00: configured for UDMA/100
+[Tue Jun  9 09:22:45 2026] ata17.00: limiting speed to UDMA/33:PIO4
+[Tue Jun  9 09:22:46 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:22:46 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:23:09 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:23:09 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:35 2026] ata17: found unknown device (class 0)
+[Tue Jun  9 09:26:35 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:26:36 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:36 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:38 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:38 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:49 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:49 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:50 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:50 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:53 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:53 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:26:59 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:26:59 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:02 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:02 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:06 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:06 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:10 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:10 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:19 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:19 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:32 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:32 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:40 2026] ata17: found unknown device (class 0)
+[Tue Jun  9 09:27:40 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:27:41 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:27:43 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:43 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:46 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:46 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:27:48 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:27:49 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:27:49 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:28:02 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:28:02 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:28:04 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:28:04 2026] ata17.00: configured for UDMA/33
+[Tue Jun  9 09:40:40 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:40:40 2026] vfio-pci 0000:01:00.1: resetting
+[Tue Jun  9 09:40:40 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:40:40 2026] vfio-pci 0000:01:00.1: reset done
+[Tue Jun  9 09:41:21 2026] ata7.00: exception Emask 0x10 SAct 0x20 SErr 0x48c0000 action 0xe frozen
+[Tue Jun  9 09:41:21 2026] ata7.00: irq_stat 0x04000040, connection status changed
+[Tue Jun  9 09:41:21 2026] ata7: SError: { CommWake 10B8B LinkSeq DevExch }
+[Tue Jun  9 09:41:21 2026] ata7.00: failed command: READ FPDMA QUEUED
+[Tue Jun  9 09:41:21 2026] ata7.00: cmd 60/e0:28:20:08:00/00:00:00:00:00/40 tag 5 ncq dma 114688 in
+                                    res 40/00:00:00:00:00/00:00:00:00:00/00 Emask 0x10 (ATA bus error)
+[Tue Jun  9 09:41:21 2026] ata7.00: status: { DRDY }
+[Tue Jun  9 09:41:21 2026] ata7: hard resetting link
+[Tue Jun  9 09:41:27 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Tue Jun  9 09:41:31 2026] ata7: hard resetting link
+[Tue Jun  9 09:41:33 2026] ata7: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:41:33 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:41:33 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:41:33 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:41:33 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:41:33 2026] ata7.00: configured for UDMA/133
+[Tue Jun  9 09:41:33 2026] ata7: EH complete
+[Tue Jun  9 09:41:34 2026]  nvme1n1: p1 p9
+[Tue Jun  9 09:41:38 2026]  nvme0n1: p1 p9
+[Tue Jun  9 09:41:42 2026]  nvme1n1: p1 p9
+[Tue Jun  9 09:41:50 2026]  nvme0n1: p1 p9
+[Tue Jun  9 09:48:10 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:49:32 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:50:02 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:50:03 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:50:03 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:50:03 2026] ata17.00: disable device
+[Tue Jun  9 09:50:04 2026] ata17: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jun  9 09:50:05 2026] ata17.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Tue Jun  9 09:50:05 2026] ata17.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Tue Jun  9 09:50:05 2026] ata17.00: Features: HIPM DIPM
+[Tue Jun  9 09:50:05 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:50:05 2026] ata17.00: detaching (SCSI 16:0:0:0)
+[Tue Jun  9 09:50:06 2026] scsi 16:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Tue Jun  9 09:50:06 2026] sd 16:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Tue Jun  9 09:50:28 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Tue Jun  9 09:50:34 2026] ata7: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:50:34 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:50:34 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:50:34 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:50:34 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:50:34 2026] ata7.00: configured for UDMA/133
+[Tue Jun  9 09:50:36 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:51:36 2026] ata17: reset failed (errno=-32), retrying in 8 secs
+[Tue Jun  9 09:51:44 2026] ata17: limiting SATA link speed to 3.0 Gbps
+[Tue Jun  9 09:51:45 2026] ata17: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:51:45 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:51:46 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:51:52 2026] ata17: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:51:52 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:51:55 2026] ata17: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:51:55 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:52:01 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:52:03 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:52:03 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:52:21 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:23 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:24 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:24 2026] ata17.00: disable device
+[Tue Jun  9 09:52:25 2026] ata17: SATA link down (SStatus 0 SControl 300)
+[Tue Jun  9 09:52:25 2026] ata17.00: detaching (SCSI 16:0:0:0)
+[Tue Jun  9 09:52:25 2026] sd 16:0:0:0: [sdc] Synchronize Cache(10) failed: Result: hostbyte=DID_BAD_TARGET driverbyte=DRIVER_OK
+[Tue Jun  9 09:52:25 2026] sd 16:0:0:0: [sdc] Start/Stop Unit failed: Result: hostbyte=DID_BAD_TARGET driverbyte=DRIVER_OK
+[Tue Jun  9 09:52:28 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:52:30 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:33 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:52:35 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:38 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:52:39 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:52:40 2026] ata17: limiting SATA link speed to 1.5 Gbps
+[Tue Jun  9 09:52:41 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:52:41 2026] ata17.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Tue Jun  9 09:52:41 2026] ata17.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Tue Jun  9 09:52:41 2026] ata17.00: Features: HIPM DIPM
+[Tue Jun  9 09:52:41 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:52:41 2026] scsi 16:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Tue Jun  9 09:52:41 2026] sd 16:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Tue Jun  9 09:52:49 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:52:49 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:52:49 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:52:50 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Tue Jun  9 09:52:52 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:52:52 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:52:52 2026] vfio-pci 0000:00:02.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0x0000
+[Tue Jun  9 09:52:52 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:52:52 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:52:56 2026] ata7: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 09:52:56 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:52:56 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:52:56 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 09:52:56 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 09:52:56 2026] ata7.00: configured for UDMA/133
+[Tue Jun  9 09:52:57 2026] ata17: SATA link down (SStatus 0 SControl 310)
+[Tue Jun  9 09:53:02 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:53:02 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:53:05 2026] ata17: SATA link up 1.5 Gbps (SStatus 113 SControl 310)
+[Tue Jun  9 09:53:05 2026] ata17.00: configured for UDMA/133
+[Tue Jun  9 09:53:44 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:53:44 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:53:44 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:53:44 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:53:45 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:53:45 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:53:45 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.1: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.1: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:53:47 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:55:05 2026] GPT: Use GNU Parted to correct GPT errors.
+[Tue Jun  9 09:56:37 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:56:37 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:56:40 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:56:40 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:56:40 2026] vfio-pci 0000:00:02.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0x0000
+[Tue Jun  9 09:56:40 2026] vfio-pci 0000:00:02.0: resetting
+[Tue Jun  9 09:56:40 2026] vfio-pci 0000:00:02.0: reset done
+[Tue Jun  9 09:59:14 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:59:14 2026] vfio-pci 0000:01:00.1: resetting
+[Tue Jun  9 09:59:14 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:59:14 2026] vfio-pci 0000:01:00.1: reset done
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:59:16 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.1: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.1: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:08:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:08:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:03:00.0: resetting
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:03:00.0: reset done
+[Tue Jun  9 09:59:18 2026] vfio-pci 0000:01:00.0: resetting
+[Tue Jun  9 09:59:19 2026] vfio-pci 0000:01:00.0: reset done
+[Tue Jun  9 10:26:13 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Tue Jun  9 10:26:19 2026] ata7: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[Tue Jun  9 10:26:19 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 10:26:19 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 10:26:19 2026] ata7.00: supports DRM functions and may not be fully accessible
+[Tue Jun  9 10:26:19 2026] ata7.00: NCQ Non-Data Log not supported
+[Tue Jun  9 10:26:19 2026] ata7.00: configured for UDMA/133

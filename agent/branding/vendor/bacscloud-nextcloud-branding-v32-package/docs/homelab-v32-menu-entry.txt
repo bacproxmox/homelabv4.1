@@ -1,0 +1,11 @@
+Suggested Homelab v3.2 menu entry:
+
+Additionals -> Branding / Themes
+  1) Apply BacsCloud branding to Nextcloud
+  2) Check BacsCloud branding status
+  3) Restore default Nextcloud branding
+
+Command mapping:
+  apply          -> bash additionals/branding/30-apply-bacscloud-nextcloud-branding.sh apply
+  status         -> bash additionals/branding/30-apply-bacscloud-nextcloud-branding.sh status
+  restore-default-> bash additionals/branding/30-apply-bacscloud-nextcloud-branding.sh restore-default

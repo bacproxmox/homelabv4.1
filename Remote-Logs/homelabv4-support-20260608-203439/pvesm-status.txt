@@ -1,0 +1,5 @@
+Name               Type     Status     Total (KiB)      Used (KiB) Available (KiB)        %
+local               dir     active        54389632         3125120        51264512    5.75%
+local-zfs       zfspool     active        51264728              96        51264632    0.00%
+nvme-vm         zfspool     active      1934622720        10484628      1924138092    0.54%
+nvme-vm-two     zfspool     active       967311360         3262744       964048616    0.34%

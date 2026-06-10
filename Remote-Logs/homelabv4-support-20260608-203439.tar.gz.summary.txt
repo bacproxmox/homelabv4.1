@@ -1,0 +1,15 @@
+Homelabv4 Support Bundle Summary
+
+Remote bundle path: /root/homelabv4-support-20260608-203439.tar.gz
+Local archive path: C:\Users\Burhan\Documents\Homelabv4\Remote-Logs\homelabv4-support-20260608-203439.tar.gz
+Bundle size: 115597 bytes (112.9 KB)
+Download time: 2026-06-08T17:34:42.503Z
+Create Bundle run id: 75a6e7ee-a44e-4986-814f-8a3b0af56783
+
+Recent create bundle log:
+Support bundle: /root/homelabv4-support-20260608-203439.tar.gz
+Homelabv4 run 75a6e7ee-a44e-4986-814f-8a3b0af56783
+Target: tasks/support/create-support-bundle.sh
+Started: 2026-06-08T17:34:39.189721+00:00
+Finished: 2026-06-08T17:34:39.532256+00:00
+Exit code: 0

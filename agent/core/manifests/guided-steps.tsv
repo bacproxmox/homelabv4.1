@@ -1,0 +1,32 @@
+# id|title|weight|critical|target
+secrets|Secrets/env bootstrap + encrypted import|8|yes|tasks/bootstrap/bootstrap-secrets.sh
+preferences|Install-time preferences, themes and avatar URLs|3|yes|tasks/bootstrap/collect-install-preferences.sh
+cloudflare_prepare|Early Cloudflare Tunnel credential prepare|3|no|tasks/services/cloudflared/prepare-tunnel-credentials.sh
+hardware_preflight|Hardware / SMART / temperature preflight|2|no|tasks/maintenance/health/hardware-preflight.sh
+proxmox_users|Create Proxmox users|4|yes|tasks/bootstrap/create-proxmox-users.sh
+storage_normalize|Normalize Proxmox local/NVMe storage|6|yes|tasks/proxmox/storage/normalize-local-storage.sh
+truenas_checkpoint|TrueNAS VM 101 + manual install/WebUI/SSH checkpoint|12|yes|flows/truenas/create-vm-and-checkpoint.sh
+truenas_storage|Fresh TrueNAS API + storage bootstrap|8|yes|flows/truenas/postinstall-and-storage.sh
+vm102|VM102 docker-arr install|4|yes|tasks/vm/102-docker-arr-vm-install.sh
+vm103|VM103 docker-network install|4|yes|tasks/vm/103-network-vm-install.sh
+vm104|VM104 Bacscloud/Nextcloud install|4|yes|tasks/vm/104-nextcloud-vm-install.sh
+vm105|VM105 Home Assistant install|3|yes|tasks/vm/105-homeassistant-vm-install.sh
+vm106|VM106 media-ai install|4|yes|tasks/vm/106-media-ai-vm-install.sh
+vm107|VM107 Chia farmer install|4|yes|tasks/vm/107-chia-farmer-vm-install.sh
+vm110|VM110 PBS backup install|3|yes|tasks/vm/110-pbs-backup-vm-install.sh
+docker_hosts|Prepare all Docker hosts|6|yes|tasks/services/common/prepare-all-docker-hosts.sh
+svc_arr|ARR stack service install|3|yes|tasks/services/arr/install.sh
+svc_seerr|Seerr service install|2|yes|tasks/services/seerr/install.sh
+svc_uptime|Uptime Kuma service install|2|yes|tasks/services/uptime-kuma/install.sh
+svc_nextcloud|Bacscloud/Nextcloud service install|3|yes|tasks/services/nextcloud/install.sh
+svc_jellyfin|Jellyfin service install|3|yes|tasks/services/jellyfin/install.sh
+svc_immich|Immich service install|3|yes|tasks/services/immich/install.sh
+svc_ollama|Ollama/OpenWebUI service install|3|yes|tasks/services/ollama/install.sh
+svc_lidarr|Lidarr service install|2|yes|tasks/services/lidarr/install.sh
+svc_homeassistant|Home Assistant service install|2|yes|tasks/services/homeassistant/install.sh
+svc_pbs|PBS service install/config inside VM110|2|yes|tasks/services/pbs/install.sh
+repair_basics|Basic repair/config polish|4|no|flows/guided/repair-basics.sh
+core_config|Run core service config + branding/profile automation|6|no|flows/config/core-config-with-branding.sh
+phase4|SMTP / Uptime Kuma / PBS automation / Chia|5|yes|flows/guided/phase4.sh
+cloudflared_final|Final Cloudflared remote access setup|3|no|tasks/services/cloudflared/install.sh
+final_health|Final VM/resource/service health checks|3|no|flows/guided/final-health.sh

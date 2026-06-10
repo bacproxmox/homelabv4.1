@@ -1,0 +1,165 @@
+[Mon Jun  8 19:08:37 2026] BIOS-e820: [mem 0x00000000709da000-0x0000000070ae8fff]  ACPI data
+[Mon Jun  8 19:08:37 2026] NODE_DATA(0) allocated [mem 0x207f7d5280-0x207f7fffff]
+[Mon Jun  8 19:08:37 2026] printk: log buffer data + meta data: 262144 + 1114112 = 1376256 bytes
+[Mon Jun  8 19:08:38 2026] APIC: Switch to symmetric I/O mode setup
+[Mon Jun  8 19:08:38 2026] Register File Data Sampling: Mitigation: Clear Register File
+[Mon Jun  8 19:08:38 2026] Memory: 122011668K/133920604K available (22418K kernel code, 4065K rwdata, 16164K rodata, 5092K init, 4896K bss, 11876456K reserved, 0K cma-reserved)
+[Mon Jun  8 19:08:38 2026] libata version 3.00 loaded.
+[Mon Jun  8 19:08:38 2026] DMAR: Intel(R) Virtualization Technology for Directed I/O
+[Mon Jun  8 19:08:38 2026] serial8250: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[Mon Jun  8 19:08:38 2026] RAS: Correctable Errors collector initialized.
+[Mon Jun  8 19:08:38 2026] Write protecting the kernel read-only data: 38912k
+[Mon Jun  8 19:08:38 2026] Freeing unused kernel image (text/rodata gap) memory: 108K
+[Mon Jun  8 19:08:38 2026] Freeing unused kernel image (rodata/data gap) memory: 220K
+[Mon Jun  8 19:08:38 2026] ahci 0000:00:17.0: AHCI vers 0001.0301, 32 command slots, 6 Gbps, SATA mode
+[Mon Jun  8 19:08:38 2026] nvme nvme0: pci function 0000:02:00.0
+[Mon Jun  8 19:08:38 2026] nvme nvme1: pci function 0000:06:00.0
+[Mon Jun  8 19:08:38 2026] ata1: DUMMY
+[Mon Jun  8 19:08:38 2026] ata2: DUMMY
+[Mon Jun  8 19:08:38 2026] ata3: DUMMY
+[Mon Jun  8 19:08:38 2026] ata4: DUMMY
+[Mon Jun  8 19:08:38 2026] ata5: SATA max UDMA/133 abar m2048@0x83102000 port 0x83102300 irq 130 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] ata6: SATA max UDMA/133 abar m2048@0x83102000 port 0x83102380 irq 130 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] ata7: SATA max UDMA/133 abar m2048@0x83102000 port 0x83102400 irq 130 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] ata8: SATA max UDMA/133 abar m2048@0x83102000 port 0x83102480 irq 130 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] ahci 0000:03:00.0: AHCI vers 0001.0301, 32 command slots, 6 Gbps, SATA mode
+[Mon Jun  8 19:08:38 2026] ata9: SATA max UDMA/133 abar m8192@0x82f10000 port 0x82f10100 irq 131 lpm-pol 1 ext
+[Mon Jun  8 19:08:38 2026] ata10: SATA max UDMA/133 abar m8192@0x82f10000 port 0x82f10180 irq 132 lpm-pol 1 ext
+[Mon Jun  8 19:08:38 2026] ata11: SATA max UDMA/133 abar m8192@0x82f10000 port 0x82f10200 irq 133 lpm-pol 1 ext
+[Mon Jun  8 19:08:38 2026] ata12: SATA max UDMA/133 abar m8192@0x82f10000 port 0x82f10280 irq 134 lpm-pol 1 ext
+[Mon Jun  8 19:08:38 2026] ata13: SATA max UDMA/133 abar m8192@0x82f10000 port 0x82f10300 irq 135 lpm-pol 1 ext
+[Mon Jun  8 19:08:38 2026] ahci 0000:05:00.0: AHCI vers 0001.0200, 32 command slots, 6 Gbps, SATA mode
+[Mon Jun  8 19:08:38 2026] ata14: SATA max UDMA/133 abar m512@0x82e00000 port 0x82e00100 irq 149 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] ata15: SATA max UDMA/133 abar m512@0x82e00000 port 0x82e00180 irq 149 lpm-pol 3
+[Mon Jun  8 19:08:38 2026] nvme nvme0: allocated 64 MiB host memory buffer (1 segment).
+[Mon Jun  8 19:08:38 2026] nvme nvme1: allocated 64 MiB host memory buffer (1 segment).
+[Mon Jun  8 19:08:38 2026] nvme nvme1: 7/0/0 default/read/poll queues
+[Mon Jun  8 19:08:38 2026] nvme nvme0: 16/0/0 default/read/poll queues
+[Mon Jun  8 19:08:38 2026]  nvme0n1: p1 p9
+[Mon Jun  8 19:08:38 2026] nvme nvme1: Ignoring bogus Namespace Identifiers
+[Mon Jun  8 19:08:38 2026] nvme nvme1: AWUPF ignored, only NAWUPF accepted
+[Mon Jun  8 19:08:38 2026]  nvme1n1: p1 p9
+[Mon Jun  8 19:08:39 2026] ata6: SATA link down (SStatus 4 SControl 300)
+[Mon Jun  8 19:08:39 2026] ata8: SATA link down (SStatus 4 SControl 300)
+[Mon Jun  8 19:08:39 2026] ata5: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:08:39 2026] ata5.00: Model 'Samsung SSD 870 EVO 500GB', rev 'SVT02B6Q', applying quirks: noncqtrim zeroaftertrim noncqonati nolpmonati
+[Mon Jun  8 19:08:39 2026] ata5.00: supports DRM functions and may not be fully accessible
+[Mon Jun  8 19:08:39 2026] ata5.00: ATA-11: Samsung SSD 870 EVO 500GB, SVT02B6Q, max UDMA/133
+[Mon Jun  8 19:08:39 2026] ata5.00: 976773168 sectors, multi 1: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:08:39 2026] ata5.00: Features: Trust Dev-Sleep DIPM NCQ-sndrcv
+[Mon Jun  8 19:08:39 2026] ata5.00: supports DRM functions and may not be fully accessible
+[Mon Jun  8 19:08:39 2026] ata9: SATA link down (SStatus 0 SControl 300)
+[Mon Jun  8 19:08:39 2026] ata5.00: configured for UDMA/133
+[Mon Jun  8 19:08:39 2026] scsi 4:0:0:0: Direct-Access     ATA      Samsung SSD 870  2B6Q PQ: 0 ANSI: 5
+[Mon Jun  8 19:08:39 2026] ata5.00: Enabling discard_zeroes_data
+[Mon Jun  8 19:08:39 2026] sd 4:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+[Mon Jun  8 19:08:39 2026] ata5.00: Enabling discard_zeroes_data
+[Mon Jun  8 19:08:39 2026] ata14: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:08:39 2026] ata14.00: ATA-11: KIOXIA-EXCERIA SATA SSD, SBFA18.3, max UDMA/133
+[Mon Jun  8 19:08:39 2026] ata14.00: 937703088 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:08:39 2026] ata14.00: Features: Dev-Sleep DIPM
+[Mon Jun  8 19:08:39 2026] ata14.00: configured for UDMA/133
+[Mon Jun  8 19:08:44 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Mon Jun  8 19:08:54 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Mon Jun  8 19:09:04 2026] ata7: link is slow to respond, please be patient (ready=0)
+[Mon Jun  8 19:09:34 2026] ata7: limiting SATA link speed to 3.0 Gbps
+[Mon Jun  8 19:09:39 2026] ata7: hardreset failed
+[Mon Jun  8 19:09:39 2026] ata7: reset failed, giving up
+[Mon Jun  8 19:09:39 2026] ata10: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:09:39 2026] ata10.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Mon Jun  8 19:09:39 2026] ata10.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:09:39 2026] ata10.00: Features: HIPM DIPM
+[Mon Jun  8 19:09:39 2026] ata10.00: configured for UDMA/133
+[Mon Jun  8 19:09:39 2026] scsi 9:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:39 2026] sd 9:0:0:0: [sdb] Preferred minimum I/O size 4096 bytes
+[Mon Jun  8 19:09:39 2026] ata11: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:09:39 2026] ata11.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Mon Jun  8 19:09:39 2026] ata11.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:09:39 2026] ata11.00: Features: HIPM DIPM
+[Mon Jun  8 19:09:40 2026] ata11.00: configured for UDMA/133
+[Mon Jun  8 19:09:40 2026] scsi 10:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:40 2026] sd 10:0:0:0: [sdc] Preferred minimum I/O size 4096 bytes
+[Mon Jun  8 19:09:40 2026] ata12: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:09:40 2026] ata12.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Mon Jun  8 19:09:40 2026] ata12.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:09:40 2026] ata12.00: Features: HIPM DIPM
+[Mon Jun  8 19:09:40 2026] ata12.00: configured for UDMA/133
+[Mon Jun  8 19:09:40 2026] scsi 11:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:40 2026] sd 11:0:0:0: [sdd] Preferred minimum I/O size 4096 bytes
+[Mon Jun  8 19:09:40 2026] ata13: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:09:40 2026] ata13.00: ATA-10: TOSHIBA HDWG180, 0603, max UDMA/133
+[Mon Jun  8 19:09:40 2026] ata13.00: 15628053168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:09:40 2026] ata13.00: Features: HIPM DIPM
+[Mon Jun  8 19:09:40 2026] ata13.00: configured for UDMA/133
+[Mon Jun  8 19:09:40 2026] scsi 12:0:0:0: Direct-Access     ATA      TOSHIBA HDWG180  0603 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:40 2026] sd 12:0:0:0: [sde] Preferred minimum I/O size 4096 bytes
+[Mon Jun  8 19:09:40 2026] scsi 13:0:0:0: Direct-Access     ATA      KIOXIA-EXCERIA S 18.3 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:40 2026] sd 13:0:0:0: [sdf] Preferred minimum I/O size 512 bytes
+[Mon Jun  8 19:09:41 2026] ata15: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Mon Jun  8 19:09:41 2026] ata15.00: ATA-11: TOSHIBA MG10ACA20TE, 0105, max UDMA/133
+[Mon Jun  8 19:09:41 2026] ata15.00: 39063650304 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[Mon Jun  8 19:09:41 2026] ata15.00: Features: HIPM DIPM NCQ-prio
+[Mon Jun  8 19:09:41 2026] ata15.00: configured for UDMA/133
+[Mon Jun  8 19:09:41 2026] scsi 14:0:0:0: Direct-Access     ATA      TOSHIBA MG10ACA2 0105 PQ: 0 ANSI: 5
+[Mon Jun  8 19:09:41 2026] sd 14:0:0:0: [sdg] Preferred minimum I/O size 4096 bytes
+[Mon Jun  8 19:09:43 2026] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Mon Jun  8 19:09:43 2026] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Mon Jun  8 19:09:43 2026] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Mon Jun  8 19:09:43 2026] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database skipped, unmet condition check ConditionNeedsUpdate=/etc
+[Mon Jun  8 19:09:43 2026] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Mon Jun  8 19:09:43 2026] faux_driver regulatory: Direct firmware load for regulatory.db failed with error -2
+[Mon Jun  8 19:09:43 2026] cfg80211: failed to load regulatory.db
+[Mon Jun  8 19:09:43 2026] sd 13:0:0:0: [sdf] tag#11 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s
+[Mon Jun  8 19:09:43 2026] sd 13:0:0:0: [sdf] tag#11 CDB: ATA command pass through(16) 85 06 20 00 05 00 fe 00 00 00 00 00 00 40 ef 00
+[Mon Jun  8 19:09:43 2026] sd 13:0:0:0: [sdf] tag#17 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s
+[Mon Jun  8 19:09:43 2026] sd 13:0:0:0: [sdf] tag#17 CDB: ATA command pass through(16) 85 06 20 00 05 00 fe 00 00 00 00 00 00 40 ef 00
+[Mon Jun  8 19:09:43 2026] Bluetooth: hci0: DSM reset method type: 0x00
+[Mon Jun  8 19:09:43 2026] nouveau 0000:01:00.0: NVIDIA GA106 (b76000a1)
+[Mon Jun  8 19:09:43 2026] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input14
+[Mon Jun  8 19:09:43 2026] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input15
+[Mon Jun  8 19:09:43 2026] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input16
+[Mon Jun  8 19:09:43 2026] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input17
+[Mon Jun  8 19:09:44 2026] iwlwifi 0000:00:14.3: CNVI_SCU_SEQ_DATA_DW9: 0x0
+[Mon Jun  8 19:09:47 2026] nvme nvme0: using unchecked data buffer
+[Mon Jun  8 19:13:17 2026]  nvme1n1: p1 p9
+[Mon Jun  8 19:13:21 2026]  nvme0n1: p1 p9
+[Mon Jun  8 19:13:24 2026]  nvme1n1: p1 p9
+[Mon Jun  8 19:13:25 2026]  nvme0n1: p1 p9
+[Mon Jun  8 19:21:24 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:22:24 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:23:28 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:24:31 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:25:15 2026] VFIO - User Level meta-driver version: 0.3
+[Mon Jun  8 19:25:16 2026] i915 0000:00:02.0: [drm] *ERROR* audio power refcount 1 after unbind
+[Mon Jun  8 19:25:16 2026] Modules linked in: vfio_pci vfio_pci_core vfio_iommu_type1 vfio iommufd tcp_diag inet_diag ebtable_filter ebtables ip_set ip6table_raw iptable_raw ip6table_filter ip6_tables iptable_filter sunrpc nf_tables bonding tls softdog binfmt_misc nfnetlink_log xe snd_hda_codec_intelhdmi drm_gpusvm_helper drm_suballoc_helper snd_sof_pci_intel_tgl snd_sof_pci_intel_cnl snd_sof_intel_hda_generic soundwire_intel snd_sof_intel_hda_sdw_bpt snd_sof_intel_hda_common snd_soc_hdac_hda snd_sof_intel_hda_mlink snd_sof_intel_hda soundwire_cadence snd_sof_pci snd_sof_xtensa_dsp snd_sof intel_rapl_msr snd_sof_utils intel_rapl_common snd_soc_acpi_intel_match snd_soc_acpi_intel_sdca_quirks soundwire_generic_allocation intel_uncore_frequency snd_soc_sdw_utils intel_uncore_frequency_common snd_soc_acpi intel_tcc_cooling iwlmvm soundwire_bus x86_pkg_temp_thermal intel_powerclamp snd_soc_sdca crc8 coretemp snd_hda_codec_nvhdmi mac80211 snd_soc_avs nova_core snd_hda_codec_hdmi kvm_intel snd_soc_hda_codec libarc4 snd_hda_intel
+[Mon Jun  8 19:25:16 2026]  snd_hda_ext_core nouveau i915 snd_hda_codec gpu_sched kvm snd_hda_core btusb snd_soc_core snd_compress ac97_bus pcspkr joydev input_leds snd_usb_audio snd_usbmidi_lib drm_gpuvm drm_ttm_helper drm_buddy snd_ump snd_intel_dspcfg irqbypass btmtk snd_rawmidi ttm snd_intel_sdw_acpi ghash_clmulni_intel btrtl drm_exec snd_pcm_dmaengine snd_hwdep snd_seq_device cmdlinepart aesni_intel btbcm iwlwifi drm_display_helper snd_pcm spi_nor btintel rapl wmi_bmof mxm_wmi mei_pxp mei_hdcp intel_pmc_core snd_timer cec mtd intel_cstate pmt_telemetry bluetooth mc snd cfg80211 rc_core pmt_discovery soundcore pmt_class i2c_algo_bit intel_pmc_ssram_telemetry serial_multi_instantiate intel_vsec acpi_pad acpi_tad mei_me mac_hid mei sch_fq_codel msr vhost_net vhost vhost_iotlb tap nvme_fabrics efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 zfs(PO) spl(O) btrfs libblake2b xor raid6_pq hid_generic usbmouse usbkbd usbhid hid nvme xhci_pci nvme_core i2c_i801 nvme_keyring spi_intel_pci i2c_mux xhci_hcd ahci igc video
+[Mon Jun  8 19:25:16 2026]  spi_intel nvme_auth i2c_smbus libahci hkdf wmi pinctrl_alderlake
+[Mon Jun  8 19:25:16 2026] vfio-pci 0000:00:02.0: vgaarb: deactivate vga console
+[Mon Jun  8 19:25:16 2026] vfio-pci 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=none,decodes=io+mem:owns=io+mem
+[Mon Jun  8 19:25:16 2026] vfio-pci 0000:00:02.0: resetting
+[Mon Jun  8 19:25:16 2026] vfio-pci 0000:00:02.0: reset done
+[Mon Jun  8 19:25:16 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:25:19 2026] vfio-pci 0000:00:02.0: resetting
+[Mon Jun  8 19:25:19 2026] vfio-pci 0000:00:02.0: reset done
+[Mon Jun  8 19:25:19 2026] vfio-pci 0000:00:02.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0xadc4
+[Mon Jun  8 19:25:19 2026] vfio-pci 0000:00:02.0: resetting
+[Mon Jun  8 19:25:19 2026] vfio-pci 0000:00:02.0: reset done
+[Mon Jun  8 19:26:11 2026] vfio-pci 0000:01:00.0: vgaarb: VGA decodes changed: olddecodes=none,decodes=io+mem:owns=none
+[Mon Jun  8 19:26:11 2026] vfio-pci 0000:01:00.0: resetting
+[Mon Jun  8 19:26:11 2026] vfio-pci 0000:01:00.0: reset done
+[Mon Jun  8 19:26:18 2026] vfio-pci 0000:03:00.0: resetting
+[Mon Jun  8 19:26:18 2026] vfio-pci 0000:03:00.0: reset done
+[Mon Jun  8 19:26:19 2026] GPT: Use GNU Parted to correct GPT errors.
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:01:00.0: resetting
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:01:00.0: reset done
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:03:00.0: resetting
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:03:00.0: reset done
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:01:00.0: resetting
+[Mon Jun  8 19:26:20 2026] vfio-pci 0000:01:00.1: resetting
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:01:00.0: reset done
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:01:00.1: reset done
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:03:00.0: resetting
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:03:00.0: reset done
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:01:00.0: resetting
+[Mon Jun  8 19:26:21 2026] vfio-pci 0000:01:00.0: reset done
+[Mon Jun  8 19:28:05 2026] GPT: Use GNU Parted to correct GPT errors.

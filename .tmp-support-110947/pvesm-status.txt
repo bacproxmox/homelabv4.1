@@ -1,0 +1,7 @@
+pbs-pi-a: error fetching datastores - fingerprint '68:2E:1C:06:5B:5D:94:4C:BF:28:B0:98:31:16:23:4B:52:FC:38:02:75:CC:A5:A6:1C:44:97:B4:E4:9E:32:DF' not verified, abort!
+Name               Type     Status     Total (KiB)      Used (KiB) Available (KiB)        %
+local               dir     active        54379904         3245952        51133952    5.97%
+local-zfs       zfspool     active        51134088              96        51133992    0.00%
+nvme-vm         zfspool     active      1934622720        19770528      1914852192    1.02%
+nvme-vm-two     zfspool     active       967311360        24114880       943196480    2.49%
+pbs-pi-a            pbs   inactive               0               0               0    0.00%

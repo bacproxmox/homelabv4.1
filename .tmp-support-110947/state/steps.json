@@ -1,0 +1,86 @@
+[
+  {
+    "id": "proxmox_update",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.429900+00:00",
+    "title": "Proxmox update and reboot gate"
+  },
+  {
+    "id": "bootstrap",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.458221+00:00",
+    "title": "Bootstrap Homelab core and environment"
+  },
+  {
+    "id": "hardware_preflight",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.526321+00:00",
+    "title": "Hardware inventory and preflight"
+  },
+  {
+    "id": "storage_fresh",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:41:58.483355+00:00",
+    "title": "Fresh NVMe storage normalize"
+  },
+  {
+    "id": "vm102",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:48:37.914546+00:00",
+    "title": "VM102 Docker ARR"
+  },
+  {
+    "id": "vm103",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:49:59.219698+00:00",
+    "title": "VM103 Network"
+  },
+  {
+    "id": "vm104",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:51:04.179765+00:00",
+    "title": "VM104 Nextcloud"
+  },
+  {
+    "id": "vm105",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:52:30.421724+00:00",
+    "title": "VM105 Home Assistant"
+  },
+  {
+    "id": "vm106",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:53:19.593374+00:00",
+    "title": "VM106 Docker Media"
+  },
+  {
+    "id": "vm107",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:54:39.060070+00:00",
+    "title": "VM107 Chia Farmer"
+  },
+  {
+    "id": "vm110",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:56:06.645309+00:00",
+    "title": "VM110 PBS Backup"
+  },
+  {
+    "id": "services",
+    "status": "done",
+    "updatedAt": "2026-06-09T07:23:37.986104+00:00",
+    "title": "Install core services"
+  },
+  {
+    "id": "branding",
+    "status": "done",
+    "updatedAt": "2026-06-09T07:25:28.169153+00:00",
+    "title": "Apply Bacmaster Branding Packs"
+  },
+  {
+    "id": "final_health",
+    "status": "failed",
+    "updatedAt": "2026-06-09T07:26:28.819183+00:00",
+    "title": "Final health and support readiness"
+  }
+]

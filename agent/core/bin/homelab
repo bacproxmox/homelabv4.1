@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export HOMELAB_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+source "$HOMELAB_ROOT/lib/core/env.sh"
+source "$HOMELAB_ROOT/lib/core/runner.sh"
+
+usage() {
+  cat <<USAGE
+Homelab v3.1.1-r2 modular runner
+
+Usage:
+  bin/homelab run <task-or-flow> [args...]
+  bin/homelab list
+  bin/homelab manifest
+  bin/homelab tui
+
+Examples:
+  bin/homelab run flows/truenas/create-vm
+  bin/homelab run tasks/iso/truenas/download-iso
+  bin/homelab run tasks/bootstrap/collect-install-preferences.sh
+  bin/homelab run tasks/config/jellyfin/apply-theme.sh
+  bin/homelab run tasks/profiles/apply-service-profiles.sh
+  bin/homelab run maintenance/health/full-health-check.sh
+USAGE
+}
+
+cmd="${1:-help}"
+shift || true
+
+case "$cmd" in
+  run)
+    [[ $# -ge 1 ]] || { usage; exit 2; }
+    homelab_run "$@"
+    ;;
+  list)
+    find "$HOMELAB_ROOT/tasks" "$HOMELAB_ROOT/flows" -type f -name "*.sh" 2>/dev/null \
+      | sed "s|^$HOMELAB_ROOT/||" \
+      | sort
+    ;;
+  manifest)
+    cat "$HOMELAB_ROOT/manifests/guided-steps.tsv"
+    ;;
+  tui)
+    bash "$HOMELAB_ROOT/installer/tui.sh"
+    ;;
+  help|-h|--help)
+    usage
+    ;;
+  *)
+    echo "Hata: bilinmeyen komut: $cmd" >&2
+    usage
+    exit 2
+    ;;
+esac

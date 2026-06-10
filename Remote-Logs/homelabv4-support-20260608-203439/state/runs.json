@@ -1,0 +1,40 @@
+[
+  {
+    "id": "75a6e7ee-a44e-4986-814f-8a3b0af56783",
+    "target": "tasks/support/create-support-bundle.sh",
+    "title": "Create support bundle",
+    "status": "running",
+    "startedAt": "2026-06-08T17:34:39.183978+00:00",
+    "logPath": "/opt/homelabv4/logs/75a6e7ee-a44e-4986-814f-8a3b0af56783.log"
+  },
+  {
+    "id": "6b128f5f-978f-46ae-858e-235d7103708a",
+    "target": "tasks/support/create-support-bundle.sh",
+    "title": "Create support bundle",
+    "status": "done",
+    "startedAt": "2026-06-08T16:37:06.106814+00:00",
+    "logPath": "/opt/homelabv4/logs/6b128f5f-978f-46ae-858e-235d7103708a.log",
+    "exitCode": 0,
+    "finishedAt": "2026-06-08T16:37:06.500053+00:00"
+  },
+  {
+    "id": "cb4b23df-0633-4e97-bb16-844a10731b35",
+    "target": "script-group:full-install",
+    "title": "Full Homelab install",
+    "status": "failed",
+    "startedAt": "2026-06-08T16:13:03.772364+00:00",
+    "logPath": "/opt/homelabv4/logs/cb4b23df-0633-4e97-bb16-844a10731b35.log",
+    "exitCode": 1,
+    "finishedAt": "2026-06-08T16:34:39.732937+00:00"
+  },
+  {
+    "id": "d5ae425d-85a0-47c5-aba8-102ae98c9d0a",
+    "target": "script-group:full-install",
+    "title": "Full Homelab install",
+    "status": "done",
+    "startedAt": "2026-06-08T16:04:28.389902+00:00",
+    "logPath": "/opt/homelabv4/logs/d5ae425d-85a0-47c5-aba8-102ae98c9d0a.log",
+    "exitCode": 0,
+    "finishedAt": "2026-06-08T16:04:50.449698+00:00"
+  }
+]

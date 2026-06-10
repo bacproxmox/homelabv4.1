@@ -1,0 +1,100 @@
+[
+  {
+    "id": "install.proxmox_update",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.793408+00:00",
+    "title": "Proxmox update and reboot gate",
+    "target": "tasks/install/proxmox-update.sh"
+  },
+  {
+    "id": "install.bootstrap_core",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.814813+00:00",
+    "title": "Bootstrap Homelab core",
+    "target": "tasks/install/bootstrap-core.sh"
+  },
+  {
+    "id": "health.hardware_preflight",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.883951+00:00",
+    "title": "Hardware preflight",
+    "target": "tasks/health/hardware-preflight.sh"
+  },
+  {
+    "id": "install.storage_fresh",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:26.127635+00:00",
+    "title": "Fresh NVMe storage normalize",
+    "target": "tasks/install/storage-fresh.sh"
+  },
+  {
+    "id": "vm.vm101_truenas",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:19:20.093348+00:00",
+    "title": "VM101 TrueNAS auto install",
+    "target": "tasks/vms/vm101-truenas.sh"
+  },
+  {
+    "id": "vm.vm102_docker_arr",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:21:51.487981+00:00",
+    "title": "VM102 Docker ARR",
+    "target": "tasks/vms/vm102-docker-arr.sh"
+  },
+  {
+    "id": "vm.vm103_network",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:22:58.969507+00:00",
+    "title": "VM103 Network",
+    "target": "tasks/vms/vm103-network.sh"
+  },
+  {
+    "id": "vm.vm104_nextcloud",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:23:55.756022+00:00",
+    "title": "VM104 Nextcloud",
+    "target": "tasks/vms/vm104-nextcloud.sh"
+  },
+  {
+    "id": "vm.vm105_homeassistant",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:24:59.511840+00:00",
+    "title": "VM105 Home Assistant",
+    "target": "tasks/vms/vm105-homeassistant.sh"
+  },
+  {
+    "id": "vm.vm106_docker_media",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:25:53.405586+00:00",
+    "title": "VM106 Docker Media",
+    "target": "tasks/vms/vm106-docker-media.sh"
+  },
+  {
+    "id": "vm.vm107_chia_farmer",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:27:03.735402+00:00",
+    "title": "VM107 Chia farmer",
+    "target": "tasks/vms/vm107-chia-farmer.sh"
+  },
+  {
+    "id": "vm.vm110_pbs_backup",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:29:32.374119+00:00",
+    "title": "VM110 PBS Backup",
+    "target": "tasks/vms/vm110-pbs-backup.sh"
+  },
+  {
+    "id": "install.core_services",
+    "status": "failed",
+    "updatedAt": "2026-06-08T16:34:39.732769+00:00",
+    "title": "Install all core services",
+    "target": "tasks/install/core-services.sh"
+  },
+  {
+    "id": "support.bundle",
+    "status": "running",
+    "updatedAt": "2026-06-08T17:34:39.189382+00:00",
+    "title": "Create support bundle",
+    "target": "tasks/support/create-support-bundle.sh"
+  }
+]

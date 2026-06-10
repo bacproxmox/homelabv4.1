@@ -1,0 +1,72 @@
+NAME          SIZE TYPE MODEL                     SERIAL               TRAN   FSTYPE     MOUNTPOINTS
+sda         465.8G disk Samsung SSD 870 EVO 500GB S6P6NL0T601729F      sata              
+├─sda1       1007K part                                                                  
+├─sda2          1G part                                                       vfat       
+└─sda3       56.7G part                                                       zfs_member 
+sdb           3.6T disk ST4000NM0053              Z1Z5KNAT             sata              
+└─sdb1        3.6T part                                                       zfs_member 
+sdg         447.1G disk KIOXIA-EXCERIA SATA SSD   Y39B70T6KFFU         sata              
+├─sdg1       1007K part                                                                  
+├─sdg2          1G part                                                       vfat       
+└─sdg3       56.7G part                                                       zfs_member 
+sdh          18.2T disk TOSHIBA MG10ACA20TE       4580A0BSF4MJ         sata              
+└─sdh1       18.2T part                                                       zfs_member 
+zd0             1M disk                                                                  
+zd16           64G disk                                                       zfs_member 
+├─zd16p1        1M part                                                                  
+├─zd16p2      512M part                                                       vfat       
+└─zd16p3     63.5G part                                                       zfs_member 
+zd32          256G disk                                                                  
+├─zd32p1      2.5G part                                                       ext4       
+├─zd32p14       4M part                                                                  
+├─zd32p15     106M part                                                       vfat       
+└─zd32p16     913M part                                                       ext4       
+zd48            1M disk                                                                  
+zd64            4M disk                                                       iso9660    
+zd80           64G disk                                                                  
+├─zd80p1      2.5G part                                                       ext4       
+├─zd80p14       4M part                                                                  
+├─zd80p15     106M part                                                       vfat       
+└─zd80p16     913M part                                                       ext4       
+zd96            4M disk                                                       iso9660    
+zd112           1M disk                                                                  
+zd128         128G disk                                                                  
+├─zd128p1     2.5G part                                                       ext4       
+├─zd128p14      4M part                                                                  
+├─zd128p15    106M part                                                       vfat       
+└─zd128p16    913M part                                                       ext4       
+zd144           4M disk                                                       iso9660    
+zd160           1M disk                                                                  
+zd176          64G disk                                                                  
+├─zd176p1     2.5G part                                                       ext4       
+├─zd176p14      4M part                                                                  
+├─zd176p15    106M part                                                       vfat       
+└─zd176p16    913M part                                                       ext4       
+zd192           4M disk                                                       iso9660    
+zd208           1M disk                                                                  
+zd224         512G disk                                                                  
+├─zd224p1     511G part                                                       ext4       
+├─zd224p14      4M part                                                                  
+├─zd224p15    106M part                                                       vfat       
+└─zd224p16    913M part                                                       ext4       
+zd240           4M disk                                                       iso9660    
+nvme0n1     953.9G disk MLD M500 NVMe SSD         7CBC0759131100037331 nvme              
+├─nvme0n1p1 953.9G part                                                nvme   zfs_member 
+└─nvme0n1p9     8M part                                                nvme              
+nvme1n1       1.9T disk XPG SPECTRIX S40G         2J4520139863         nvme              
+├─nvme1n1p1   1.9T part                                                nvme   zfs_member 
+└─nvme1n1p9     8M part                                                nvme              
+zd256           1M disk                                                                  
+zd272         346G disk                                                                  
+├─zd272p16    913M part                                                       ext4       
+├─zd272p1     345G part                                                       ext4       
+├─zd272p14      4M part                                                                  
+└─zd272p15    106M part                                                       vfat       
+zd288           4M disk                                                       iso9660    
+zd304           1M disk                                                                  
+zd320          64G disk                                                                  
+├─zd320p1     2.9G part                                                       ext4       
+├─zd320p14      3M part                                                                  
+└─zd320p15    124M part                                                       vfat       
+zd336           1M disk                                                                  
+zd352           4M disk                                                       iso9660    

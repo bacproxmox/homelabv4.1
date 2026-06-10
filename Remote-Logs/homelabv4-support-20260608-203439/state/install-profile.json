@@ -1,0 +1,55 @@
+{
+  "truenasIso": {
+    "localPath": "C:\\Users\\Burhan\\Documents\\Bacmaster Brand ISO tool\\out\\Bacmasters-NAS_25.10.4.iso",
+    "fileName": "Bacmasters-NAS_25.10.4.iso",
+    "sha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+    "sizeBytes": 2257960960,
+    "manifestPath": "C:\\Users\\Burhan\\Documents\\Bacmaster Brand ISO tool\\out\\Bacmasters-NAS_25.10.4.iso.manifest.json",
+    "manifest": {
+      "product": "truenas",
+      "brand": "Bacmaster's NAS",
+      "sourceVersion": "25.10.4",
+      "sourceUrl": "https://download.sys.truenas.net/TrueNAS-SCALE-Goldeye/25.10.4/TrueNAS-SCALE-25.10.4.iso",
+      "sourceSha256": "efb57cc9a23835c2ffd74326c61251bdb3d627f57bcd2a806a152aee0bb98d66",
+      "outputSha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+      "createdAtUtc": "2026-06-08T06:08:51Z"
+    },
+    "warnings": [],
+    "uploaded": true,
+    "remotePath": "/var/lib/vz/template/iso/Bacmasters-NAS_25.10.4.iso",
+    "remoteSha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+    "uploadedAt": "2026-06-08T16:03:44.203Z"
+  },
+  "truenas": {
+    "installMode": "auto-with-fallback",
+    "vmId": 101,
+    "vmName": "truenas",
+    "sshHost": "192.168.50.101",
+    "sshUser": "truenas_admin",
+    "bootDiskGb": 64,
+    "ramMb": 32768,
+    "cores": 4,
+    "fixedMac": "02:23:14:00:01:01",
+    "truenasIso": {
+      "localPath": "C:\\Users\\Burhan\\Documents\\Bacmaster Brand ISO tool\\out\\Bacmasters-NAS_25.10.4.iso",
+      "fileName": "Bacmasters-NAS_25.10.4.iso",
+      "sha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+      "sizeBytes": 2257960960,
+      "manifestPath": "C:\\Users\\Burhan\\Documents\\Bacmaster Brand ISO tool\\out\\Bacmasters-NAS_25.10.4.iso.manifest.json",
+      "manifest": {
+        "product": "truenas",
+        "brand": "Bacmaster's NAS",
+        "sourceVersion": "25.10.4",
+        "sourceUrl": "https://download.sys.truenas.net/TrueNAS-SCALE-Goldeye/25.10.4/TrueNAS-SCALE-25.10.4.iso",
+        "sourceSha256": "efb57cc9a23835c2ffd74326c61251bdb3d627f57bcd2a806a152aee0bb98d66",
+        "outputSha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+        "createdAtUtc": "2026-06-08T06:08:51Z"
+      },
+      "warnings": [],
+      "uploaded": true,
+      "remotePath": "/var/lib/vz/template/iso/Bacmasters-NAS_25.10.4.iso",
+      "remoteSha256": "e7f05eeecedf2c587f4210a343963e553a947b059ca7a5ed998107b21329707f",
+      "uploadedAt": "2026-06-08T16:03:44.203Z"
+    }
+  }
+}

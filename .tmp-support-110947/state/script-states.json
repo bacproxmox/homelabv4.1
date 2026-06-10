@@ -1,0 +1,163 @@
+[
+  {
+    "id": "core.config.00_run_all_core_config",
+    "status": "failed",
+    "updatedAt": "2026-06-08T23:13:14.260467+00:00",
+    "title": "Core: Run All Core Config",
+    "target": "core:config/00-run-all-core-config.sh"
+  },
+  {
+    "id": "branding.bacsflix_jellyfin_status",
+    "status": "failed",
+    "updatedAt": "2026-06-09T05:22:57.396458+00:00",
+    "title": "Bacsflix Jellyfin status",
+    "target": "tasks/branding/bacsflix-jellyfin-status.sh"
+  },
+  {
+    "id": "branding.bacsflix_jellyfin_apply",
+    "status": "failed",
+    "updatedAt": "2026-06-09T05:23:12.154635+00:00",
+    "title": "Bacsflix Jellyfin apply",
+    "target": "tasks/branding/bacsflix-jellyfin-apply.sh"
+  },
+  {
+    "id": "branding.bacscloud_nextcloud_status",
+    "status": "failed",
+    "updatedAt": "2026-06-09T05:23:42.918562+00:00",
+    "title": "BacsCloud Nextcloud status",
+    "target": "tasks/branding/bacscloud-nextcloud-status.sh"
+  },
+  {
+    "id": "branding.bacscloud_nextcloud_apply",
+    "status": "failed",
+    "updatedAt": "2026-06-09T05:23:46.334028+00:00",
+    "title": "BacsCloud Nextcloud apply",
+    "target": "tasks/branding/bacscloud-nextcloud-apply.sh"
+  },
+  {
+    "id": "branding.bacmasters_nas_apply",
+    "status": "done",
+    "updatedAt": "2026-06-09T05:24:02.692913+00:00",
+    "title": "Bacmaster's NAS apply",
+    "target": "tasks/branding/bacmasters-nas-truenas-apply.sh"
+  },
+  {
+    "id": "core.additionals.themes.jellyfin_bacsflix_theme",
+    "status": "done",
+    "updatedAt": "2026-06-09T05:24:11.163164+00:00",
+    "title": "Core: Jellyfin Bacsflix Theme",
+    "target": "core:additionals/themes/jellyfin-bacsflix-theme.sh"
+  },
+  {
+    "id": "install.proxmox_update",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.436059+00:00",
+    "title": "Proxmox update and reboot gate",
+    "target": "tasks/install/proxmox-update.sh"
+  },
+  {
+    "id": "install.bootstrap_core",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.463992+00:00",
+    "title": "Bootstrap Homelab core",
+    "target": "tasks/install/bootstrap-core.sh"
+  },
+  {
+    "id": "health.hardware_preflight",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:40:24.532635+00:00",
+    "title": "Hardware preflight",
+    "target": "tasks/health/hardware-preflight.sh"
+  },
+  {
+    "id": "install.storage_fresh",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:41:58.489032+00:00",
+    "title": "Fresh NVMe storage normalize",
+    "target": "tasks/install/storage-fresh.sh"
+  },
+  {
+    "id": "vm.vm101_truenas",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:47:35.064347+00:00",
+    "title": "VM101 TrueNAS auto install",
+    "target": "tasks/vms/vm101-truenas.sh"
+  },
+  {
+    "id": "vm.vm102_docker_arr",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:48:37.921134+00:00",
+    "title": "VM102 Docker ARR",
+    "target": "tasks/vms/vm102-docker-arr.sh"
+  },
+  {
+    "id": "vm.vm103_network",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:49:59.226127+00:00",
+    "title": "VM103 Network",
+    "target": "tasks/vms/vm103-network.sh"
+  },
+  {
+    "id": "vm.vm104_nextcloud",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:51:04.186241+00:00",
+    "title": "VM104 Nextcloud",
+    "target": "tasks/vms/vm104-nextcloud.sh"
+  },
+  {
+    "id": "vm.vm105_homeassistant",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:52:30.428250+00:00",
+    "title": "VM105 Home Assistant",
+    "target": "tasks/vms/vm105-homeassistant.sh"
+  },
+  {
+    "id": "vm.vm106_docker_media",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:53:19.599966+00:00",
+    "title": "VM106 Docker Media",
+    "target": "tasks/vms/vm106-docker-media.sh"
+  },
+  {
+    "id": "vm.vm107_chia_farmer",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:54:39.066575+00:00",
+    "title": "VM107 Chia farmer",
+    "target": "tasks/vms/vm107-chia-farmer.sh"
+  },
+  {
+    "id": "vm.vm110_pbs_backup",
+    "status": "done",
+    "updatedAt": "2026-06-09T06:56:06.651388+00:00",
+    "title": "VM110 PBS Backup",
+    "target": "tasks/vms/vm110-pbs-backup.sh"
+  },
+  {
+    "id": "install.core_services",
+    "status": "done",
+    "updatedAt": "2026-06-09T07:23:37.992026+00:00",
+    "title": "Install all core services",
+    "target": "tasks/install/core-services.sh"
+  },
+  {
+    "id": "branding.safe_wave",
+    "status": "done",
+    "updatedAt": "2026-06-09T07:25:28.175657+00:00",
+    "title": "Apply safe branding wave",
+    "target": "tasks/branding/apply-safe-wave.sh"
+  },
+  {
+    "id": "health.full",
+    "status": "failed",
+    "updatedAt": "2026-06-09T07:26:28.825704+00:00",
+    "title": "Full health check",
+    "target": "tasks/health/full-health.sh"
+  },
+  {
+    "id": "support.bundle",
+    "status": "running",
+    "updatedAt": "2026-06-09T08:09:47.125351+00:00",
+    "title": "Create support bundle",
+    "target": "tasks/support/create-support-bundle.sh"
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "steps": [
+    {
+      "id": "proxmox_update",
+      "title": "Proxmox update and reboot gate",
+      "weight": 7,
+      "critical": true,
+      "target": "tasks/install/proxmox-update.sh"
+    },
+    {
+      "id": "bootstrap",
+      "title": "Bootstrap Homelab core and environment",
+      "weight": 8,
+      "critical": true,
+      "target": "tasks/install/bootstrap-core.sh"
+    },
+    {
+      "id": "hardware_preflight",
+      "title": "Hardware inventory and preflight",
+      "weight": 3,
+      "critical": false,
+      "target": "tasks/health/hardware-preflight.sh"
+    },
+    {
+      "id": "storage_fresh",
+      "title": "Fresh NVMe storage normalize",
+      "weight": 6,
+      "critical": true,
+      "destructive": true,
+      "target": "tasks/install/storage-fresh.sh"
+    },
+    {
+      "id": "truenas",
+      "title": "TrueNAS VM auto install and storage bootstrap",
+      "weight": 12,
+      "critical": true,
+      "target": "tasks/vms/vm101-truenas.sh"
+    },
+    {
+      "id": "vm102",
+      "title": "VM102 Docker ARR",
+      "weight": 4,
+      "critical": true,
+      "target": "tasks/vms/vm102-docker-arr.sh"
+    },
+    {
+      "id": "vm103",
+      "title": "VM103 Network",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/vms/vm103-network.sh"
+    },
+    {
+      "id": "vm104",
+      "title": "VM104 Nextcloud",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/vms/vm104-nextcloud.sh"
+    },
+    {
+      "id": "vm105",
+      "title": "VM105 Home Assistant",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/vms/vm105-homeassistant.sh"
+    },
+    {
+      "id": "vm106",
+      "title": "VM106 Docker Media",
+      "weight": 4,
+      "critical": true,
+      "target": "tasks/vms/vm106-docker-media.sh"
+    },
+    {
+      "id": "vm107",
+      "title": "VM107 Chia Farmer",
+      "weight": 5,
+      "critical": true,
+      "target": "tasks/vms/vm107-chia-farmer.sh"
+    },
+    {
+      "id": "vm110",
+      "title": "VM110 PBS Backup",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/vms/vm110-pbs-backup.sh"
+    },
+    {
+      "id": "service_prepare_docker",
+      "title": "Prepare Docker hosts",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/services/prepare-docker-hosts.sh"
+    },
+    {
+      "id": "service_arr",
+      "title": "ARR stack service",
+      "weight": 5,
+      "critical": true,
+      "target": "tasks/services/arr.sh"
+    },
+    {
+      "id": "service_seerr",
+      "title": "Jellyseerr service",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/services/jellyseerr.sh"
+    },
+    {
+      "id": "service_uptime",
+      "title": "Uptime Kuma service",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/services/uptime-kuma.sh"
+    },
+    {
+      "id": "service_nextcloud",
+      "title": "Nextcloud service",
+      "weight": 5,
+      "critical": true,
+      "target": "tasks/services/nextcloud.sh"
+    },
+    {
+      "id": "service_jellyfin",
+      "title": "Jellyfin service",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/services/jellyfin.sh"
+    },
+    {
+      "id": "service_immich",
+      "title": "Immich service",
+      "weight": 4,
+      "critical": true,
+      "target": "tasks/services/immich.sh"
+    },
+    {
+      "id": "service_ollama",
+      "title": "OpenWebUI and Ollama",
+      "weight": 5,
+      "critical": true,
+      "target": "tasks/services/openwebui-ollama.sh"
+    },
+    {
+      "id": "service_lidarr",
+      "title": "Lidarr music service",
+      "weight": 2,
+      "critical": true,
+      "target": "tasks/services/lidarr.sh"
+    },
+    {
+      "id": "service_homeassistant",
+      "title": "Home Assistant service",
+      "weight": 2,
+      "critical": true,
+      "target": "tasks/services/homeassistant.sh"
+    },
+    {
+      "id": "service_pbs",
+      "title": "PBS backup service",
+      "weight": 3,
+      "critical": true,
+      "target": "tasks/services/pbs.sh"
+    },
+    {
+      "id": "service_chia",
+      "title": "Chia farmer service",
+      "weight": 5,
+      "critical": true,
+      "target": "tasks/services/chia.sh"
+    },
+    {
+      "id": "post_service_config",
+      "title": "Post-service config",
+      "weight": 8,
+      "critical": true,
+      "target": "tasks/config/run-all-core-config.sh"
+    },
+    {
+      "id": "branding",
+      "title": "Apply Bacmaster Branding Packs",
+      "weight": 5,
+      "critical": false,
+      "target": "tasks/branding/apply-safe-wave.sh"
+    },
+    {
+      "id": "branding_bacscloud_status",
+      "title": "BacsCloud branding status",
+      "weight": 1,
+      "critical": false,
+      "target": "tasks/branding/bacscloud-nextcloud-status.sh"
+    },
+    {
+      "id": "branding_bacsflix_status",
+      "title": "Bacsflix branding status",
+      "weight": 1,
+      "critical": false,
+      "target": "tasks/branding/bacsflix-jellyfin-status.sh"
+    },
+    {
+      "id": "branding_nas_status",
+      "title": "Bacmaster's NAS branding status",
+      "weight": 1,
+      "critical": false,
+      "target": "tasks/branding/bacmasters-nas-truenas-status.sh"
+    },
+    {
+      "id": "final_health",
+      "title": "Final health and support readiness",
+      "weight": 8,
+      "critical": false,
+      "target": "tasks/health/full-health.sh"
+    }
+  ]
+}

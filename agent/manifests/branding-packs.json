@@ -1,0 +1,226 @@
+{
+  "packs": [
+    {
+      "id": "bacstatus-uptime-kuma",
+      "service": "Uptime Kuma",
+      "brandName": "BacStatus",
+      "displayName": "BacStatus for Uptime Kuma",
+      "description": "Monitoring identity for Homelab service status pages.",
+      "primaryColor": "#31d158",
+      "accentColor": "#14d8ee",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "planned",
+      "assets": {
+        "wideLogo": "/branding/source/bacstatus-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacstatus-uptime-kuma.sh",
+        "status": "tasks/branding/bacstatus-uptime-kuma.sh",
+        "restore": "tasks/branding/bacstatus-uptime-kuma.sh"
+      }
+    },
+    {
+      "id": "bacscloud-nextcloud",
+      "service": "Nextcloud",
+      "brandName": "BacsCloud",
+      "displayName": "BacsCloud for Nextcloud",
+      "description": "Supported Nextcloud theming through occ and bundled BacsCloud assets.",
+      "primaryColor": "#008cff",
+      "accentColor": "#1a9bff",
+      "riskLevel": "low",
+      "reapplyAfterUpdate": false,
+      "implementation": "wrapped-vendor",
+      "assets": {
+        "wideLogo": "/branding/source/bacscloud-logo.png",
+        "loginBackground": "/branding/source/bacscloud-login-background-safe-2560x1440.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacscloud-nextcloud-apply.sh",
+        "status": "tasks/branding/bacscloud-nextcloud-status.sh",
+        "restore": "tasks/branding/bacscloud-nextcloud-restore.sh"
+      }
+    },
+    {
+      "id": "bacsflix-jellyfin",
+      "service": "Jellyfin",
+      "brandName": "Bacsflix",
+      "displayName": "Bacsflix for Jellyfin",
+      "description": "Cinematic Jellyfin theme with marker based patching and restore.",
+      "primaryColor": "#ff1744",
+      "accentColor": "#ff3d00",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "wrapped-vendor",
+      "assets": {
+        "wideLogo": "/branding/source/bacsflix-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacsflix-jellyfin-apply.sh",
+        "status": "tasks/branding/bacsflix-jellyfin-status.sh",
+        "restore": "tasks/branding/bacsflix-jellyfin-restore.sh"
+      }
+    },
+    {
+      "id": "bacmasters-nas-truenas",
+      "service": "TrueNAS",
+      "brandName": "Bacmaster's NAS",
+      "displayName": "Bacmaster's NAS for TrueNAS",
+      "description": "TrueNAS WebUI static branding. Reapply after TrueNAS updates.",
+      "primaryColor": "#1a9bff",
+      "accentColor": "#14d8ee",
+      "riskLevel": "high",
+      "reapplyAfterUpdate": true,
+      "implementation": "wrapped-vendor",
+      "assets": {
+        "wideLogo": "/branding/source/bacmasters-nas-logo.png",
+        "transparentLogo": "/branding/source/bacmasters-nas-logo-transparent-v4.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacmasters-nas-truenas-apply.sh",
+        "status": "tasks/branding/bacmasters-nas-truenas-status.sh",
+        "restore": "tasks/branding/bacmasters-nas-truenas-restore.sh"
+      }
+    },
+    {
+      "id": "bacmastersai-openwebui",
+      "service": "OpenWebUI",
+      "brandName": "BacmastersAI",
+      "displayName": "BacmastersAI for OpenWebUI",
+      "description": "AI service identity for Ollama and OpenWebUI.",
+      "primaryColor": "#a855f7",
+      "accentColor": "#14d8ee",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "wrapped-vendor",
+      "assets": {
+        "wideLogo": "/branding/source/bacmastersai-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacmastersai-openwebui.sh",
+        "status": "tasks/branding/bacmastersai-openwebui.sh",
+        "restore": "tasks/branding/bacmastersai-openwebui.sh"
+      }
+    },
+    {
+      "id": "bachome-homeassistant",
+      "service": "Home Assistant",
+      "brandName": "BacHome",
+      "displayName": "BacHome for Home Assistant",
+      "description": "Home automation identity and dashboard assets.",
+      "primaryColor": "#009dff",
+      "accentColor": "#14d8ee",
+      "riskLevel": "low",
+      "reapplyAfterUpdate": false,
+      "implementation": "planned",
+      "assets": {
+        "wideLogo": "/branding/source/bachome-wide-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bachome-homeassistant.sh",
+        "status": "tasks/branding/bachome-homeassistant.sh",
+        "restore": "tasks/branding/bachome-homeassistant.sh"
+      }
+    },
+    {
+      "id": "bacphotos-immich",
+      "service": "Immich",
+      "brandName": "BacPhotos",
+      "displayName": "BacPhotos for Immich",
+      "description": "Photo library identity for Immich.",
+      "primaryColor": "#ff4dd8",
+      "accentColor": "#ffb238",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "wrapped-vendor",
+      "assets": {
+        "wideLogo": "/branding/source/bacphotos-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacphotos-immich.sh",
+        "status": "tasks/branding/bacphotos-immich.sh",
+        "restore": "tasks/branding/bacphotos-immich.sh"
+      }
+    },
+    {
+      "id": "bacmusic-lidarr",
+      "service": "Lidarr / music services",
+      "brandName": "BacMusic",
+      "displayName": "BacMusic for music services",
+      "description": "Music service identity, queued for Lidarr and related music stack branding.",
+      "primaryColor": "#e94dff",
+      "accentColor": "#1a9bff",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "planned",
+      "assets": {
+        "wideLogo": "/branding/source/bacmusic-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacmusic-lidarr.sh",
+        "status": "tasks/branding/bacmusic-lidarr.sh",
+        "restore": "tasks/branding/bacmusic-lidarr.sh"
+      }
+    },
+    {
+      "id": "bacneyplus-seerr",
+      "service": "Jellyseerr / Seerr",
+      "brandName": "Bacneyplus",
+      "displayName": "Bacneyplus for Seerr",
+      "description": "Request portal identity for Jellyseerr and Seerr family services.",
+      "primaryColor": "#8b5cf6",
+      "accentColor": "#a855f7",
+      "riskLevel": "medium",
+      "reapplyAfterUpdate": true,
+      "implementation": "planned",
+      "assets": {
+        "wideLogo": "/branding/source/bacneyplus-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacneyplus-seerr.sh",
+        "status": "tasks/branding/bacneyplus-seerr.sh",
+        "restore": "tasks/branding/bacneyplus-seerr.sh"
+      }
+    },
+    {
+      "id": "bacchia-vm107",
+      "service": "VM107 Chia farmer",
+      "brandName": "BacChia",
+      "displayName": "BacChia for VM107",
+      "description": "Chia farmer identity for GPU plotting and C7 compressed plot workflow.",
+      "primaryColor": "#31d158",
+      "accentColor": "#21c45d",
+      "riskLevel": "low",
+      "reapplyAfterUpdate": false,
+      "implementation": "planned",
+      "assets": {
+        "wideLogo": "/branding/source/bacchia-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacchia-vm107.sh",
+        "status": "tasks/branding/bacchia-vm107.sh",
+        "restore": "tasks/branding/bacchia-vm107.sh"
+      }
+    },
+    {
+      "id": "bacmaster-app",
+      "service": "Homelabv4 Windows app",
+      "brandName": "Bacmaster",
+      "displayName": "Bacmaster for Homelabv4 app",
+      "description": "Primary Windows Electron panel identity and app-shell branding.",
+      "primaryColor": "#1a9bff",
+      "accentColor": "#14d8ee",
+      "riskLevel": "low",
+      "reapplyAfterUpdate": false,
+      "implementation": "built-in",
+      "assets": {
+        "wideLogo": "/branding/source/bacmaster-logo.png"
+      },
+      "targets": {
+        "apply": "tasks/branding/bacmaster-app.sh",
+        "status": "tasks/branding/bacmaster-app.sh",
+        "restore": "tasks/branding/bacmaster-app.sh"
+      }
+    }
+  ]
+}

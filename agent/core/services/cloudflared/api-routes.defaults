@@ -1,0 +1,19 @@
+# Homelab API/mobile Cloudflared routes
+# Format: NAME|URL|HOSTNAME
+ProxmoxAPI|https://192.168.50.100:8006|pve-api.bacmastercloud.com
+TrueNASAPI|http://192.168.50.101|truenas-api.bacmastercloud.com
+qBittorrentAPI|http://192.168.50.102:8080|qbittorrent-api.bacmastercloud.com
+SonarrAPI|http://192.168.50.102:8989|sonarr-api.bacmastercloud.com
+RadarrAPI|http://192.168.50.102:7878|radarr-api.bacmastercloud.com
+ProwlarrAPI|http://192.168.50.102:9696|prowlarr-api.bacmastercloud.com
+BazarrAPI|http://192.168.50.102:6767|bazarr-api.bacmastercloud.com
+SeerrAPI|http://192.168.50.102:5055|bacneyplus-api.bacmastercloud.com
+UptimeKumaAPI|http://192.168.50.103:3001|status-api.bacmastercloud.com
+NextcloudAPI|http://192.168.50.104:8080|cloud-api.bacmastercloud.com
+HomeAssistantAPI|http://192.168.50.105:8123|home-api.bacmastercloud.com
+JellyfinAPI|http://192.168.50.106:8096|bacsflix-api.bacmastercloud.com
+ImmichAPI|http://192.168.50.106:2283|photos-api.bacmastercloud.com
+OpenWebUIAPI|http://192.168.50.106:3000|ai-api.bacmastercloud.com
+LidarrAPI|http://192.168.50.106:8686|music-api.bacmastercloud.com
+ChiaAPI|http://192.168.50.107:8555|chia-api.bacmastercloud.com
+PBSAPI|https://192.168.50.110:8007|pbs-api.bacmastercloud.com

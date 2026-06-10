@@ -1,0 +1,71 @@
+{
+  "name": "homelabv4",
+  "version": "0.1.3",
+  "description": "Homelabv4 Windows Electron control panel with Proxmox agent and Bacmaster Branding Packs.",
+  "main": "out/main/index.js",
+  "author": "Bacmaster",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "tsc --noEmit && electron-vite build",
+    "dist": "npm run build && electron-builder",
+    "typecheck": "tsc --noEmit",
+    "lint:agent": "bash -lc \"shopt -s globstar nullglob; bash -n bootstrap.sh agent/tasks/**/*.sh agent/core/**/*.sh agent/install-agent.sh\""
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "adm-zip": "^0.5.17",
+    "electron-updater": "^6.3.9",
+    "keytar": "^7.9.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ssh2": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.16",
+    "@types/react-dom": "^18.3.5",
+    "@types/ssh2": "^1.15.5",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "png-to-ico": "^2.1.8",
+    "sharp": "^0.33.5",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.14"
+  },
+  "build": {
+    "appId": "com.bacmaster.homelabv4",
+    "productName": "Homelabv4",
+    "files": [
+      "out/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "agent",
+        "to": "agent"
+      },
+      {
+        "from": "public/branding",
+        "to": "branding"
+      },
+      {
+        "from": "build/icon.ico",
+        "to": "icon.ico"
+      }
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "signAndEditExecutable": false,
+      "verifyUpdateCodeSignature": false,
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  }
+}

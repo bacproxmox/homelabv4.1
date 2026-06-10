@@ -1,0 +1,74 @@
+[
+  {
+    "id": "proxmox_update",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.788090+00:00",
+    "title": "Proxmox update and reboot gate"
+  },
+  {
+    "id": "bootstrap",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.809357+00:00",
+    "title": "Bootstrap Homelab core and environment"
+  },
+  {
+    "id": "hardware_preflight",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:03.877680+00:00",
+    "title": "Hardware inventory and preflight"
+  },
+  {
+    "id": "storage_fresh",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:13:26.121851+00:00",
+    "title": "Fresh NVMe storage normalize"
+  },
+  {
+    "id": "vm102",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:21:51.481576+00:00",
+    "title": "VM102 Docker ARR"
+  },
+  {
+    "id": "vm103",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:22:58.960298+00:00",
+    "title": "VM103 Network"
+  },
+  {
+    "id": "vm104",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:23:55.748030+00:00",
+    "title": "VM104 Nextcloud"
+  },
+  {
+    "id": "vm105",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:24:59.505046+00:00",
+    "title": "VM105 Home Assistant"
+  },
+  {
+    "id": "vm106",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:25:53.399174+00:00",
+    "title": "VM106 Docker Media"
+  },
+  {
+    "id": "vm107",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:27:03.728954+00:00",
+    "title": "VM107 Chia Farmer"
+  },
+  {
+    "id": "vm110",
+    "status": "done",
+    "updatedAt": "2026-06-08T16:29:32.368159+00:00",
+    "title": "VM110 PBS Backup"
+  },
+  {
+    "id": "services",
+    "status": "failed",
+    "updatedAt": "2026-06-08T16:34:39.726301+00:00",
+    "title": "Install core services"
+  }
+]
